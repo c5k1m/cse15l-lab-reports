@@ -15,3 +15,9 @@ I'm hungry.
 `print("Hello, world!")` is a print statement
 
 > "15 minutes can save you 15% or more on car insurance"
+
+I will be having curry for lunch.
+
+# Here is a list of grocery items
+* Apples
+* Bananas
