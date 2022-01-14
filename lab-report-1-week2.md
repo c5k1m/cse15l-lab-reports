@@ -51,7 +51,7 @@ Some of the commands allow you to navigate through paths and folders is through 
   
 # Step 4: Moving Files with `scp`
 
-One of the commands when dealing with files is `scp`, which takes a file and moves it from one location to another location. To move a file from your computer to another server, like the CSE building basement, use the syntax `scp `. The below picture includes a screenshot of a Java file that was created as well as the code that moves the file from the CSE server to the local computer.
+One of the commands when dealing with files is `scp`, which takes a file and moves it from one location to another location. To move a file from your computer to another server, like the CSE building basement, use the syntax `scp`. The below picture includes a screenshot of a Java file that was created as well as the code that moves the file from the CSE server to the local computer. As we can see, after moving the file from the local computer to the CSE basement computers, we type `ls` and see that the file is in our home directory.
 
 ![Image](https://user-images.githubusercontent.com/81746604/149584082-12c6ebb4-6786-428f-a3cb-a716c43d1038.png)
 
@@ -60,6 +60,15 @@ One of the commands when dealing with files is `scp`, which takes a file and mov
 
 
 # Step 5: Setting an SSH Key
+
+To look for time-saving ways to copy a remote server with `ssh` and `scp`, we can instead utilize `ssh` keys where we create pairs of files called "public key" and "private key," using the `ssh-keygen` syntax. By copying the public key onto the server and the private key onto the local computer, the `ssh` command then prevent you from having to constantly enter your password.
+
+![Image](https://user-images.githubusercontent.com/81746604/149586196-e243d08e-16de-49b4-9bf8-1fc8336f7813.png)
+
+After running `ssh-keygen`, we can now copy the public key to the `.ssh` directory according to our course-specific account and ultimately `scp` without entering our password.
+
+![Image](https://user-images.githubusercontent.com/81746604/149586280-22482820-d161-4b03-a28b-12812e443dea.png)
+
 
 # Step 6: Optimizng Remote Running
 
