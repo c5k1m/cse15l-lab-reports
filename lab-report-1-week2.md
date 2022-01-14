@@ -1,6 +1,6 @@
 # Introduction
 
-This report contains a tutorial on how to log onto a course-sepcific account on `ieng6`. Each step be separated and will include a screenshot or multiple of them as well as a brief description of what to do in that particular step. Let's get started!
+This blog contains a tutorial on how to log onto a course-sepcific account on `ieng6`. Each step be separated and will include a screenshot or multiple of them as well as a brief description of what to do in that particular step. Let's get started!
 
 
 
