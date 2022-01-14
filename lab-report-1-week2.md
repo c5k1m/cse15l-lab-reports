@@ -44,7 +44,7 @@ Some of the commands allow you to navigate through paths and folders is through 
 * `cp` - makes a copy of the file (sometimes does not work in server if the file can't be copied for security reasons)
 * `scp` - moves files or directories between a local and a remote system or between two remote systems
 
-![Image]() add picture of using commands on computer, not server
+![Image](https://user-images.githubusercontent.com/81746604/149590659-0da0019b-a150-4a03-add9-2384774568fd.png)
 
 
   
@@ -71,5 +71,11 @@ After running `ssh-keygen`, we can now copy the public key to the `.ssh` directo
 
 
 # Step 6: Optimizng Remote Running
+
+One of the ways to save time in remote running is to run multiple commands on the same line For instance, running the `WhereAmI.java` file can be done on the local computer as opposed to the CSE basement servers. The following picture includes how the file is able to be run on the servers as opposed to having to constantly login and out back and forth.
+
+![Image](https://user-images.githubusercontent.com/81746604/149590378-71712d5f-73df-498f-8899-b95413eeba20.png)
+
+The usage of semicolons allows us to pass multiple commands in at once and have the computer perform them in the order of which they are separated. By doing so we are able to run the actual file from our local computer and save time without having to constantly interact with the login portal of the servers.
 
 
