@@ -20,7 +20,7 @@ To create a new file, press the "command" and "N" keys together and select the p
 
 # Step 3: Trying Some Commands
 
-# Step 4: Moving Files with `scp  
+# Step 4: Moving Files with `scp`  
 
 # Step 5: Setting an SSH Key
 
