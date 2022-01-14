@@ -3,6 +3,8 @@
 This report contains a tutorial on how to log onto a course-sepcific account on `ieng6`. Each step be separated and will include a screenshot or multiple of them as well as a brief description of what to do in that particular step. Let's get started!
 
 
+
+
 # Step 1: Intalling VSCode
 
 VSCode is an IDE (integrated development environment) that allows for the writing, editing, and compiling of code for the purpose of software development. To install VSCode, we first go to [this website](https://code.visualstudio.com/), where we will see the page shown below.
@@ -16,11 +18,46 @@ Then, we install VSCode and then approach approach a fresh window such as the on
 To create a new file, press the "command" and "N" keys together and select the programming language of your choice.
 
 
+
+
 # Step 2: Remotely Connecting
+
+To remotely connect, using course-specific account is required, which can be found using this [this link](https://sdacs.ucsd.edu/~icc/index.php) and finding your account in the format `cs15lwi22zz`, where `zz` is specific to your account. Once completed, open up VSCode and open up the terminal. Type `ssh`, add a space, type your account, and immediately follow it with `ieng6.ucsd.edu`. 
+
+![Image](https://user-images.githubusercontent.com/81746604/149580207-324c9e6b-8367-4e24-b485-a85ed0c398b2.png)
+
+The next steps are to type `yes` when a pop-up message notifying you that a new connection will be established to a server and then type your password, all of which are shown below.
+
+![Image](https://user-images.githubusercontent.com/81746604/149580287-e80bb037-3923-41b2-99e2-4f0b01cc6e36.png)
+
+
+
 
 # Step 3: Trying Some Commands
 
-# Step 4: Moving Files with `scp`  
+Some of the commands allow you to navigate through paths and folders is through commands such as `cd`, `ls`, `mkdir`, and `cp`. Below, a list of commands as well as their functions is provided. Also, for the sake of simplification, a picture of the commands being run on the computer as opposed to the remote computers in the CSE basement is provided.
+
+* `cd ~` - sends you back to the base directory
+* 'pwd` - prints the current directory (gives the absolute path)
+* ls` - prints out the name of all files in the current directory
+* `mkdir`- creates a folder in the current directory 
+* `cp` - makes a copy of the file (sometimes does not work in server if the file can't be copied for security reasons)
+* `scp` - moves files or directories between a local and a remote system or between two remote systems
+
+![Image]() add picture of using commands on computer, not server
+
+
+  
+  
+# Step 4: Moving Files with `scp`
+
+One of the commands when dealing with files is `scp`, which takes a file and moves it from one location to another location. To move a file from your computer to another server, like the CSE building basement, use the syntax `scp `. The below picture includes a screenshot of a Java file that was created as well as the code that moves the file from the CSE server to the local computer.
+
+![Image](https://user-images.githubusercontent.com/81746604/149584082-12c6ebb4-6786-428f-a3cb-a716c43d1038.png)
+
+![Image](https://user-images.githubusercontent.com/81746604/149584144-7e8cfb3e-0894-438b-bf7b-2cb8ceabdd38.png)
+
+
 
 # Step 5: Setting an SSH Key
 
