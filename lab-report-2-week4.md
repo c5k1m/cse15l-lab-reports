@@ -15,7 +15,7 @@ Link to Failure-Inducing Input: https://github.com/hungrypingu/markdown-parse/bl
 
 
 
-# Code Change #3
+# Code Change #3: Prevent Looping Forever
 ![alt text](https://user-images.githubusercontent.com/81746604/151633182-dfd1e949-9144-4948-95cf-1601d0ba9d82.png)
 
 Link to Failure-Inducing Input: https://github.com/hungrypingu/markdown-parse/blob/main/test-file3.md
