@@ -8,8 +8,8 @@ Link to Failure-Inducing Input: https://github.com/hungrypingu/markdown-parse/bl
 
 
 
-# Code Change #2
-![alt text](https://user-images.githubusercontent.com/81746604/151634257-f6ac42e4-fd30-428a-9e7a-9e0e52900c74.png)
+# Code Change #2: Invalid Links
+![alt text](https://user-images.githubusercontent.com/81746604/151636944-99aecdcb-9517-4596-ab24-277f8c604e42.png)
 
 Link to Failure-Inducing Input: https://github.com/hungrypingu/markdown-parse/blob/main/test-file2.md
 
