@@ -74,7 +74,9 @@ After running `ssh-keygen`, we can now copy the public key to the `.ssh` directo
 
 One of the ways to save time in remote running is to run multiple commands on the same line For instance, running the `WhereAmI.java` file can be done on the local computer as opposed to the CSE basement servers. The following picture includes how the file is able to be run on the servers as opposed to having to constantly login and out back and forth.
 
-![Image](https://user-images.githubusercontent.com/81746604/149590378-71712d5f-73df-498f-8899-b95413eeba20.png)
+![Image](https://user-images.githubusercontent.com/81746604/151486831-8d1c635e-0141-495d-a531-2ff04adbb34e.png)
+
+We know that when we type in "ssh cs15lwi22akd@ieng6.ucsd.edu; javac OtherMain.java; java WhereAmI", would take 69 keystrokes in total, including when the "Enter" button is pressed. If we separated the code out such as "ssh cs15lwi22akd@ieng6.ucsd.edu", "javac OtherMain.java", and then "java WhereAmI". It would take 67 keystrokes. One way to save keystrokes is utilizes the "tab" button to finish the line for us. For instance, we can fully type in "ssh cs15lwi22akd@ieng6.ucsd.edu" to get 32 keystrokes (including when we press "Enter"), type "javac Oth" and then "tab" to finish out "javac OtherMain.java" to get 11 keystrokes (including when we press "Enter"), and then type "java Whe" and then "tab" to finish out "java WhereAmI" to get 10 keystrokes (including when we press "Enter") to get a total of 53 keystrokes, which is less than our initial 67 and 69 keystroke counts.
 
 The usage of semicolons allows us to pass multiple commands in at once and have the computer perform them in the order of which they are separated. By doing so we are able to run the actual file from our local computer and save time without having to constantly interact with the login portal of the servers.
 
