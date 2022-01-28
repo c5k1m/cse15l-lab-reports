@@ -4,7 +4,7 @@
 
 ![alt text](https://user-images.githubusercontent.com/81746604/151634257-f6ac42e4-fd30-428a-9e7a-9e0e52900c74.png)
 
-Link to Failure-Inducing Input: https://github.com/hungrypingu/markdown-parse/blob/main/test-file.md
+Link to Failure-Inducing Input: https://github.com/hungrypingu/markdown-parse/blob/main/test-file3.md
 
 
 
@@ -18,7 +18,7 @@ Link to Failure-Inducing Input: https://github.com/hungrypingu/markdown-parse/bl
 # Code Change #3: Prevent Looping Forever
 ![alt text](https://user-images.githubusercontent.com/81746604/151633182-dfd1e949-9144-4948-95cf-1601d0ba9d82.png)
 
-Link to Failure-Inducing Input: https://github.com/hungrypingu/markdown-parse/blob/main/test-file3.md
+Link to Failure-Inducing Input: https://github.com/hungrypingu/markdown-parse/blob/main/test-file.md
 
 ![alt text](https://user-images.githubusercontent.com/81746604/151635904-61b9e92e-ddd2-4790-a375-6732eefc5c25.png))
 
