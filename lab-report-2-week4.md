@@ -20,7 +20,7 @@ Link to Failure-Inducing Input: https://github.com/hungrypingu/markdown-parse/bl
 
 Link to Failure-Inducing Input: https://github.com/hungrypingu/markdown-parse/blob/main/test-file3.md
 
-![alt text](https://user-images.githubusercontent.com/81746604/151633182-dfd1e949-9144-4948-95cf-1601d0ba9d82.png))
+![alt text](https://https://user-images.githubusercontent.com/81746604/151635904-61b9e92e-ddd2-4790-a375-6732eefc5c25.png))
 
 
 
