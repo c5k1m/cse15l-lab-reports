@@ -1,6 +1,6 @@
 *Brief Note: In accordance to the lab write-up and written permission from Anzhi Weng, screenshots from Jaehoon Kim's repo (he is in my CSE 15L lab group) and links of his* ```.md``` *files were utilized to showcase the bugs that were experienced during lab and the corrections that were ultimately made as his repo was used for demonstrations; I had a forking issue on my end during lab that Yasushi Oh can attest to, which is why I can't fork Jaehoon's repo and am using Jaehoon's repo as a reference to what we discussed during lab.*
 
-# Code Change #1
+# Code Change #1: All Brackets Need to be Looped
 
 ![alt text](https://user-images.githubusercontent.com/81746604/151634257-f6ac42e4-fd30-428a-9e7a-9e0e52900c74.png)
 
