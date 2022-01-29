@@ -12,7 +12,7 @@ A symptom of the failure-inducing input was that the file would run properly eve
 # Code Change #2: Invalid Links
 ![alt text](https://user-images.githubusercontent.com/81746604/151636944-99aecdcb-9517-4596-ab24-277f8c604e42.png)
 
-Link to Failure-Inducing Input: https://github.com/hungrypingu/markdown-parse/blob/main/test-file3.md
+Link to Failure-Inducing Input: https://github.com/hungrypingu/markdown-parse/blob/main/test-file4.md
 
 
 
