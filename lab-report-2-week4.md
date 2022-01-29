@@ -6,6 +6,7 @@
 
 Link to Failure-Inducing Input: https://github.com/hungrypingu/markdown-parse/blob/main/test-file2.md
 
+A symptom of the failure-inducing input was that the file would run properly even though there was an invalid input as seen the in the ```.md``` file that contains the line "[]link goes here!" Thus, we can assume that the original code only checked the first element and did not loop any further as it only checked the first element. We were able to change the ```.md``` code file such that it checks for all sorts of brackets, not just the ```nextOpenBracket``` input.
 
 
 # Code Change #2: Invalid Links
