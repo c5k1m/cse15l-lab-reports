@@ -22,3 +22,11 @@ Now that we have the file copies, I can log into my `ieng6` account and try to f
 We can compile and run all of the files on the command line through our remote server account. The screenshot below illustrates how we use the compiling and running commands to test our files. We compile both `MarkdownParse.java` and `MarkdownParseTest.java` files before running the `MarkdownParseTest.java` file. Thus, the screenshot below displays our tests...
 
 ![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/153539047-0f859ef2-4205-45c1-b71e-a4844bfe7257.png)
+
+
+## Part 3: Combining `scp`, `;`, and `ssh` to Copy Directory and Run Tests
+
+We will now try to save keystrokes by trying to combine the `scp`, `;`, and `ssh` commands from our local computer.
+
+
+
