@@ -6,6 +6,8 @@
 
 Link to Failure-Inducing Input: https://github.com/hungrypingu/markdown-parse/blob/main/test-file3.md
 
+![alt text](https://user-images.githubusercontent.com/81746604/153662839-a5f47647-0805-47d7-92c6-fa5e247c11cf.png)
+
 A symptom of the failure-inducing input was that the file only checked to see if the first parenthesis was looped through as opposed to all sets of parenthesis, which threw an exception for `test-file3.md` as it contained the line `[]link goes here!`, which didn't include any text within the parenthesis. As a result, a `StringIndexOutOfBoundsException` was thrown where we began at index 0 and ended at index -1. We were able to change the `.md` code file such that it checks for all sorts of brackets, not just the `nextOpenBracket` input.
 
 
