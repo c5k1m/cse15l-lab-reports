@@ -9,7 +9,9 @@ First, we need to show the files that are included in the `markdown-parse` repos
 Next, we use the `scp -r` to copy the directory to the remote server. I will be using my `cs15lwi22akd@ieng6.ucsd.edu` account in lieu of CSE 15L's demo remote server account to perform the copy. Additionally, since the resulting output of copying all files to the remote server is extremeley lengthy, two screenshots will be provided below, where the first picture will show the actual command on the command-line performing the copy along with some of the recursive copy functions being performed and the second picture will show some of the recursive copy functions being performed along with the last file being copies recursively. Thus, the two pictures below detail this process (the three dots represent the separation of the two screenshots)...
 
 ![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/153535172-224aa56b-07f5-4ecb-9ede-66fa0c02caa5.png)
+
 **...**
+
 ![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/153535235-401d2d74-d57a-4dad-9592-72f3ec6c345c.png)
 
 
@@ -29,7 +31,9 @@ We can compile and run all of the files on the command line through our remote s
 We will now try to save keystrokes by trying to combine the `scp`, `;`, and `ssh` commands from our local computer. Similar to Part 1, since the resulting output of copying all files to the remote server is extremeley lengthy, two screenshots will be provided below, where the first picture will show the actual command on the command-line performing the copy along with some of the recursive copy functions being performed and the second picture will show some of the recursive copy functions being performed along with the last file being copies recursively. Thus, the two pictures below detail this process (the three dots represent the separation of the two screenshots)...
 
 ![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/153541343-c18898ed-5412-40c0-8a58-5e6034bd325e.png)
+
 **...**
+
 ![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/153541625-713ee372-c923-42d5-a17a-70df3391fdee.png)
 
 
