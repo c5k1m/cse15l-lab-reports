@@ -36,5 +36,7 @@ We will now try to save keystrokes by trying to combine the `scp`, `;`, and `ssh
 
 ![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/153541625-713ee372-c923-42d5-a17a-70df3391fdee.png)
 
+After making a copy, the code below gives an example of how we can run tests in one line from the local computer as opposed to having to log onto the remote server. Thus, the image below shows the usage of `;` and `ssh` to separate out commands and save keystrokes...
 
+![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/153558205-cdfef5c7-374c-4a18-9643-29a1dd4d8b7e.png)
 
