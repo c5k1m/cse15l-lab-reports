@@ -4,9 +4,9 @@
 
 ![alt text](https://user-images.githubusercontent.com/81746604/151634257-f6ac42e4-fd30-428a-9e7a-9e0e52900c74.png)
 
-Link to Failure-Inducing Input:
+Link to Failure-Inducing Input: https://github.com/hungrypingu/markdown-parse/blob/main/test-file3.md
 
-A symptom of the failure-inducing input was that the file would run properly even though there was an invalid input as seen the in the ```.md``` file that contains the line "[]link goes here!" Thus, we can assume that the original code only checked the first element and did not loop any further as it only checked the first element. We were able to change the ```.md``` code file such that it checks for all sorts of brackets, not just the ```nextOpenBracket``` input.
+A symptom of the failure-inducing input was that the file only checked to see if the first parenthesis was looped through as opposed to all sets of parenthesis, which threw an exception for `test-file3.md` as it contained the line `[]link goes here!`, which didn't include any text within the parenthesis. As a result, a `StringIndexOutOfBoundsException` was thrown where we began at index 0 and ended at index -1. We were able to change the `.md` code file such that it checks for all sorts of brackets, not just the `nextOpenBracket` input.
 
 
 # Code Change #2: Prevent Looping Forever
