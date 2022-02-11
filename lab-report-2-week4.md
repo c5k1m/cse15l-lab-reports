@@ -28,4 +28,4 @@ Link to Failure-Inducing Input: https://github.com/hungrypingu/markdown-parse/bl
 
 ![alt text](https://user-images.githubusercontent.com/81746604/153669161-cf2a6aaa-6d84-4d91-8812-0d6be51e1b1b.png)
 
-This function will account for brackets that don't contain any sort of text between them. Our original code was not able to account for the possibility of having an empty set of brackets. Thus, the wrong output was thrown, one that isn't even contained in the `test-file3.md` file. Fixing this error allowed us to prevent the method from somehow throwing an output of `[https://something.com, some-page.html]` as opposed to the empty brackets.
+This function will account for brackets that don't contain any sort of text between them. Our original code was not able to account for the possibility of having an empty set of brackets. Thus, the wrong output was thrown, one that isn't even contained in the `test-file3.md` file. Fixing this error allowed us to prevent the method from throwing an output of `[https://something.com, some-page.html]` as opposed to the empty brackets in the `test-file3.md` file.
