@@ -18,3 +18,7 @@ Next, we use the `scp -r` to copy the directory to the remote server. I will be 
 Now that we have the file copies, I can log into my `ieng6` account and try to find the `markdown-parse` directory using the `ls` command. The process of logging in and finding the directory is shown below...
 
 ![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/153535854-91e1d556-945f-4f33-ae68-d1f076a107f8.png)
+
+We can compile and run all of the files on the command line through our remote server account. The screenshot below illustrates how we use the compiling and running commands to test our files. We compile both `MarkdownParse.java` and `MarkdownParseTest.java` files before running the `MarkdownParseTest.java` file. Thus, the screenshot below displays our tests...
+
+![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/153539047-0f859ef2-4205-45c1-b71e-a4844bfe7257.png)
