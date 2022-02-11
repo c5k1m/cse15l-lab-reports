@@ -11,7 +11,7 @@ Link to Failure-Inducing Input: https://github.com/hungrypingu/markdown-parse/bl
 A symptom of the failure-inducing input was that the file only checked to see if the first parenthesis was looped through as opposed to all sets of parenthesis, which threw an exception for `test-file3.md` as it contained the line `[]link goes here!`, which didn't include any text within the parenthesis. As a result, a `StringIndexOutOfBoundsException` was thrown where we began at index 0 and ended at index -1. We were able to change the `.md` code file such that it checks for all sorts of brackets, not just the `nextOpenBracket` input.
 
 
-# Code Change #2: Prevent Looping Forever
+# Code Change #2: Prevent Infinite Loop
 ![alt text](https://user-images.githubusercontent.com/81746604/151633182-dfd1e949-9144-4948-95cf-1601d0ba9d82.png)
 
 Link to Failure-Inducing Input: https://github.com/hungrypingu/markdown-parse/blob/main/test-file.md
@@ -21,4 +21,5 @@ Link to Failure-Inducing Input: https://github.com/hungrypingu/markdown-parse/bl
 As a result of not accounting for the possibility of an infinite loop, the code will continue running forever if there isn't a valid link to end the line in the ```.md``` file. As a result, the program kept running over and over again until Java had to throw its own error out for running an infinite loop.
 
 
+# Code Change #3:
 
