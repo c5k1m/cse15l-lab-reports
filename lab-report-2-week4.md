@@ -4,6 +4,8 @@
 
 ![alt text](https://user-images.githubusercontent.com/81746604/151634257-f6ac42e4-fd30-428a-9e7a-9e0e52900c74.png)
 
+Link to Failure-Inducing Input:
+
 A symptom of the failure-inducing input was that the file would run properly even though there was an invalid input as seen the in the ```.md``` file that contains the line "[]link goes here!" Thus, we can assume that the original code only checked the first element and did not loop any further as it only checked the first element. We were able to change the ```.md``` code file such that it checks for all sorts of brackets, not just the ```nextOpenBracket``` input.
 
 
