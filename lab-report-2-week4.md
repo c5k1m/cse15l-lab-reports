@@ -21,5 +21,11 @@ Link to Failure-Inducing Input: https://github.com/hungrypingu/markdown-parse/bl
 As a result of not accounting for the possibility of an infinite loop, the code will continue running forever if there isn't a valid link to end the line in the ```.md``` file. As a result, the program kept running over and over again until Java had to throw its own error out for running an infinite loop.
 
 
-# Code Change #3:
+# Code Change #3: Fixing Invalid Inputs
+![alt text](https://user-images.githubusercontent.com/81746604/153669316-d831b92c-0732-4094-9325-2dd42f62f661.png)
+
+Link to Failure-Inducing Input: https://github.com/hungrypingu/markdown-parse/blob/main/test-file3.md
+
+![alt text](https://user-images.githubusercontent.com/81746604/153669161-cf2a6aaa-6d84-4d91-8812-0d6be51e1b1b.png)
+
 
