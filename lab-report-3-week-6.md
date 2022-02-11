@@ -13,3 +13,8 @@ Next, we use the `scp -r` to copy the directory to the remote server. I will be 
 ![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/153535235-401d2d74-d57a-4dad-9592-72f3ec6c345c.png)
 
 
+## Part 2: Logging into `ieng6` Account and Compiling/Running Tests
+
+Now that we have the file copies, I can log into my `ieng6` account and try to find the `markdown-parse` directory using the `ls` command. The process of logging in and finding the directory is shown below...
+
+![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/153535854-91e1d556-945f-4f33-ae68-d1f076a107f8.png)
