@@ -28,15 +28,12 @@ We can compile and run all of the files on the command line through our remote s
 
 ## Part 3: Combining `scp`, `;`, and `ssh` to Copy Directory and Run Tests
 
-We will now try to save keystrokes by trying to combine the `scp`, `;`, and `ssh` commands from our local computer. Similar to Part 1, since the resulting output of copying all files to the remote server is extremeley lengthy, two screenshots will be provided below, where the first picture will show the actual command on the command-line performing the copy along with some of the recursive copy functions being performed and the second picture will show some of the recursive copy functions being performed along with the last file being copies recursively. Thus, the two pictures below detail this process (the three dots represent the separation of the two screenshots)...
+We will now try to save keystrokes by trying to combine the `scp`, `;`, and `ssh` commands from our local computer. Similar to Part 1, since the resulting output of copying all files to the remote server is extremeley lengthy, two screenshots will be provided below, where the first picture will show the actual command on the command-line performing the copy along with some of the recursive copy functions being performed and the second picture will show the method output after the commands are all run in one line from the first image. Thus, the images below shows the usage of `scp`, `;`, and `ssh` to separate out commands and save keystrokes...
 
-![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/153541343-c18898ed-5412-40c0-8a58-5e6034bd325e.png)
+![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/155769271-b9a3ac2e-db51-46a1-a609-bdcd3c459333.png)
 
 **...**
 
-![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/153541625-713ee372-c923-42d5-a17a-70df3391fdee.png)
+![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/155769487-55db94b0-64e9-4bcd-8536-b9054e380d85.png)
 
-After making a copy, the code below gives an example of how we can run tests in one line from the local computer as opposed to having to log onto the remote server. Thus, the image below shows the usage of `;` and `ssh` to separate out commands and save keystrokes...
-
-![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/153558205-cdfef5c7-374c-4a18-9643-29a1dd4d8b7e.png)
 
