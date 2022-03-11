@@ -1,5 +1,3 @@
-*Brief Note: As expected, since each group's `MarkdownParse.java` file was different, a different format of a test between my Markdown-Parse Repo and the repo being reviewed was required for each code snippet.*
-
 My Markdown-Parse Repo: https://github.com/c5k1m/markdown-parse
 
 Repo being Reviewed: https://github.com/maotcha/markdown-parse
