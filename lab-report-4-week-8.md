@@ -56,6 +56,8 @@ The screenshot below provides the output of running Snippet 2 on the repo being 
 
 As we can see, the test clearly failed because the correct output was supposed to be `[a.com, a.com(()), example.com]`, but the actual output was `[a.com)](b.com, a.com(()), example.com]`, where it's clear that the `)](b.com` portion in the `a.com)](b.com` output was not supposed to be included in the output as shown in the JUnit stack trace presented above as a result of the failed test. 
 
+**Code-Change Question (Snippet 2)**:
+
 
 
 # Snippet 3
@@ -82,3 +84,6 @@ The screenshot below provides the output of running Snippet 3 on the repo being 
 ![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157933110-76460f34-12d2-4277-80fd-154ba801472c.png)
 
 As we can see, the test clearly failed because the correct output was supposed to be `[https://ucsd-cse15l-w22.github.io/]`, but the actual output was an empty set of brackets, signifying that the method did not treat any of the input as valid links.
+
+**Code-Change Question (Snippet 3)**:
+
