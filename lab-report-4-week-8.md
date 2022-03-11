@@ -6,7 +6,7 @@ Repo being Reviewed: https://github.com/maotcha/markdown-parse
 
 # Snippet 1
 
-The code below illustrates how the actual test for Snippet 1 was conducted in the `MarkdownParseTest.java` file on my Markdown-Parse Repo, where the assert test includes what the test method should've produced per the CommonMark demo site...
+The code below illustrates how the actual test for Snippet 1 was conducted in the `MarkdownParseTest.java` file in my Markdown-Parse Repo, where the assert test includes what the test method should've produced per the CommonMark demo site...
 
 ![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157922566-66e309b1-444c-4671-bf9a-fadf21d64d34.png)
 
@@ -34,7 +34,7 @@ As we can see, the test clearly failed because the correct output was supposed t
 
 # Snippet 2
 
-The code below illustrates how the actual test for Snippet 2 was conducted in the `MarkdownParseTest.java` file on my Markdown-Parse Repo, where the assert test includes what the test method should've produced per the CommonMark demo site...
+The code below illustrates how the actual test for Snippet 2 was conducted in the `MarkdownParseTest.java` file in my Markdown-Parse Repo, where the assert test includes what the test method should've produced per the CommonMark demo site...
 
 ![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157922706-08e587f3-9548-4988-a553-a93a63e0b020.png)
 
@@ -47,7 +47,7 @@ The screenshot below provides the output of running Snippet 2 on my Markdown-Par
 
 ![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157933508-f38be5ee-194d-4482-a25c-bf2dfc419eec.png)
 
-As we can see, the test clearly failed because the correct output was supposed to be `[a.com, a.com(()), example.com]`, but the actual output was `[a.com, a.com((, example.com]`, where `a.com((` is missing two closing parenthesis brackets as shown in the JUnit stack trace presented above as a result of the failed test. 
+As we can see, the test clearly failed because the correct output was supposed to be `[a.com, a.com(()), example.com]`, but the actual output was `[a.com, a.com((, example.com]`, where `a.com((` is missing two close parentheses as shown in the JUnit stack trace presented above as a result of the failed test. 
 
 
 The screenshot below provides the output of running Snippet 2 on the repo being reviewed...
@@ -56,13 +56,13 @@ The screenshot below provides the output of running Snippet 2 on the repo being 
 
 As we can see, the test clearly failed because the correct output was supposed to be `[a.com, a.com(()), example.com]`, but the actual output was `[a.com)](b.com, a.com(()), example.com]`, where it's clear that the `)](b.com` portion in the `a.com)](b.com` output was not supposed to be included in the output as shown in the JUnit stack trace presented above as a result of the failed test. 
 
-**Code-Change Question (Snippet 2)**:
+**Code-Change Question (Snippet 2)**: The code change will definitely be less than 10 lines long to fix the error in my `MarkdownParse.java` file. The issue lies with the `int closeParen = markdown.indexOf(")", openParen);` and `toReturn.add(markdown.substring(openParen + 1, closeParen));` lines in my Markdown-Parse file because the code only reads up to next close parenthesis and takes everything up to it (without including the close parenthesis itself), which illustrates how `a.com(())` comes out as `a.com((` in the output. The change will simply look for the last closed parenthesis and take everything up to that closed parenthesis, which will be a simply one-line addition with the help of the `substring()` method.
 
 
 
 # Snippet 3
 
-The code below illustrates how the actual test for Snippet 3 was conducted in the `MarkdownParseTest.java` file on my Markdown-Parse Repo, where the assert test includes what the test method should've produced per the CommonMark demo site...
+The code below illustrates how the actual test for Snippet 3 was conducted in the `MarkdownParseTest.java` file in my Markdown-Parse Repo, where the assert test includes what the test method should've produced per the CommonMark demo site...
 
 ![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157929968-0408e6ba-d640-42f3-a5af-56fe23a50bff.png)
 
@@ -85,5 +85,5 @@ The screenshot below provides the output of running Snippet 3 on the repo being 
 
 As we can see, the test clearly failed because the correct output was supposed to be `[https://ucsd-cse15l-w22.github.io/]`, but the actual output was an empty set of brackets, signifying that the method did not treat any of the input as valid links.
 
-**Code-Change Question (Snippet 3)**:
+**Code-Change Question (Snippet 3)**: In taking into consideration that the file basically takes every set of square brackets and treats the corresponding link as a valid link shows that there exists a deeper problem within the program as it merely looks for brackets and parenthesis placements, like how `github.com` gets included in the output along with the multi-line text after the `github.com` link, which to begin with isn't even supposed to be included in the output. The major code change that will need to occur is one where any and all unnecessary text included within a link's parentheses are not included in the output, which through the usage of several if-statements and code within each if-statement to check for valid text can take up at least 10 lines. Thus, we will need to include multiple if-statements that exclude these unnecessary texts and also excludes links, like `https://www.twitter.com` and `https://cse.ucsd.edu`, from being included in the output.
 
