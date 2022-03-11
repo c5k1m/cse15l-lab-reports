@@ -7,7 +7,7 @@ Repo being Reviewed: https://github.com/maotcha/markdown-parse
 # Snippet 1
 
 The code below illustrates how the actual test for Snippet 1 was conducted in the `MarkdownParseTest.java` file...
-![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157915211-01ceff45-e695-4a68-b82f-f19d5a079e7d.png)
+![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157919883-566e0405-248a-4507-a915-489973f9924c.png)
 
 The screenshot below provides the output of running Snippet 1 on my Markdown-Parse Repo...
 ![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157915930-872700f0-6f49-4d0e-9716-5fd40089b5d1.png)
@@ -21,7 +21,7 @@ The change in the code will definitively be less than 10 lines because the minor
 # Snippet 2
 
 The code below illustrates how the actual test for Snippet 2 was conducted in the `MarkdownParseTest.java` file...
-![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157919194-419ee628-4e23-48fe-bc9e-b641d2bec718.png)
+![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157920088-de70e128-b874-48ec-a8f0-a5dc0b411387.png)
 
 The screenshot below provides the output of running Snippet 2 on my Markdown-Parse Repo...
 ![markdown-parse repo picture]()
@@ -33,7 +33,7 @@ The screenshot below provides the output of running Snippet 2 on the repo being 
 # Snippet 3
 
 The code below illustrates how the actual test for Snippet 3 was conducted in the `MarkdownParseTest.java` file...
-![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157919362-4f583842-981c-4068-9d98-54e50e995181.png)
+![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157920315-7588d2cd-e9ae-4396-9e9e-04d3a94d1b8f.png)
 
 The screenshot below provides the output of running Snippet 3 on my Markdown-Parse Repo...
 ![markdown-parse repo picture]()
