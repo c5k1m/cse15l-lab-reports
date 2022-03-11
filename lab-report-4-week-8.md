@@ -6,8 +6,8 @@ Repo being Reviewed: https://github.com/maotcha/markdown-parse
 
 # Snippet 1
 
-The code below illustrates how the actual test for Snippet 1 was conducted in the `MarkdownParseTest.java` file...
-![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157919883-566e0405-248a-4507-a915-489973f9924c.png)
+The code below illustrates how the actual test for Snippet 1 was conducted in the `MarkdownParseTest.java` file on my Markdown-Parse Repo and the repo being reviewed...
+![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157922566-66e309b1-444c-4671-bf9a-fadf21d64d34.png)
 
 The screenshot below provides the output of running Snippet 1 on my Markdown-Parse Repo...
 ![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157915930-872700f0-6f49-4d0e-9716-5fd40089b5d1.png)
@@ -20,20 +20,20 @@ The change in the code will definitively be less than 10 lines because the minor
 
 # Snippet 2
 
-The code below illustrates how the actual test for Snippet 2 was conducted in the `MarkdownParseTest.java` file...
-![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157920088-de70e128-b874-48ec-a8f0-a5dc0b411387.png)
+The code below illustrates how the actual test for Snippet 2 was conducted in the `MarkdownParseTest.java` file on my Markdown-Parse Repo and the repo being reviewed...
+![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157922706-08e587f3-9548-4988-a553-a93a63e0b020.png)
 
 The screenshot below provides the output of running Snippet 2 on my Markdown-Parse Repo...
-![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157921678-0b8b3dba-ca5a-4241-80d1-a4a814165f5c.png)
+![markdown-parse repo picture]()
 
 The screenshot below provides the output of running Snippet 2 on the repo being reviewed...
-![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157922144-b8366b27-476c-4158-b5fa-2fcd67941eb4.png)
+![markdown-parse repo picture]()
 
 
 # Snippet 3
 
-The code below illustrates how the actual test for Snippet 3 was conducted in the `MarkdownParseTest.java` file...
-![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157920315-7588d2cd-e9ae-4396-9e9e-04d3a94d1b8f.png)
+The code below illustrates how the actual test for Snippet 3 was conducted in the `MarkdownParseTest.java` file on my Markdown-Parse Repo and the repo being reviewed...
+![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157923045-d45ec981-e26a-4f68-9d8c-91d529f1cb60.png)
 
 The screenshot below provides the output of running Snippet 3 on my Markdown-Parse Repo...
 ![markdown-parse repo picture]()
