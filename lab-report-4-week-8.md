@@ -20,13 +20,17 @@ The screenshot below provides the output of running Snippet 1 on my Markdown-Par
 
 ![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157915930-872700f0-6f49-4d0e-9716-5fd40089b5d1.png)
 
+As we can see, the test clearly failed because the correct output was supposed to be `[`google.com, google.com, ucsd.edu]`, but the actual output also included the `url.com` links as well into the output as shown in the JUnit stack trace presented above as a result of the failed test.
+
 
 The screenshot below provides the output of running Snippet 1 on the repo being reviewed...
 
 ![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157933887-243798bb-d69f-4fe9-aabe-bdb9b0949d95.png)
 
+As we can see, the test clearly failed because the correct output was supposed to be `[`google.com, google.com, ucsd.edu]`, but, similar to my markdown-parse repo, the actual output also included the `url.com` link as well in the front of the output.
 
-The change in the code will definitively be less than 10 lines because the minor mistake involved an apostraphe in the link.
+
+
 
 # Snippet 2
 
@@ -43,10 +47,15 @@ The screenshot below provides the output of running Snippet 2 on my Markdown-Par
 
 ![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157933508-f38be5ee-194d-4482-a25c-bf2dfc419eec.png)
 
+As we can see, the test clearly failed because the correct output was supposed to be `[a.com, a.com(()), example.com]`, but the actual output was `[a.com, a.com((, example.com]`, where `a.com((` is missing two closing parenthesis brackets as shown in the JUnit stack trace presented above as a result of the failed test. 
+
 
 The screenshot below provides the output of running Snippet 2 on the repo being reviewed...
 
 ![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157933709-0d0f8415-b102-4f44-aa48-65053d1a15ba.png)
+
+As we can see, the test clearly failed because the correct output was supposed to be `[a.com, a.com(()), example.com]`, but the actual output was `[a.com)](b.com, a.com(()), example.com]`, where it's clear that the `)](b.com` portion was in `a.com)](b.com` was not supposed to be included in the output as shown in the JUnit stack trace presented above as a result of the failed test. 
+
 
 
 # Snippet 3
