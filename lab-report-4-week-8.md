@@ -6,12 +6,12 @@ Repo being Reviewed: https://github.com/maotcha/markdown-parse
 
 # Snippet 1
 
-The code below illustrates how the actual test for Snippet 1 was conducted in the `MarkdownParseTest.java` file on my Markdown-Parse Repo...
+The code below illustrates how the actual test for Snippet 1 was conducted in the `MarkdownParseTest.java` file on my Markdown-Parse Repo, where the assert test includes what the test method should've produced per the CommonMark demo site...
 
 ![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157922566-66e309b1-444c-4671-bf9a-fadf21d64d34.png)
 
-The code below illustrates how the actual test for Snippet 1 was conducted in the `MarkdownParseTest.java` file on the repo being reviewed...
 
+The code below illustrates how the actual test for Snippet 1 was conducted in the `MarkdownParseTest.java` file on the repo being reviewed, where the assert test includes what the test method should've produced per the CommonMark demo site...
 
 ![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157933989-a4d9855f-5f7d-433c-ace1-3086ed1ffdce.png)
 
@@ -30,12 +30,12 @@ The change in the code will definitively be less than 10 lines because the minor
 
 # Snippet 2
 
-The code below illustrates how the actual test for Snippet 2 was conducted in the `MarkdownParseTest.java` file on my Markdown-Parse Repo...
+The code below illustrates how the actual test for Snippet 2 was conducted in the `MarkdownParseTest.java` file on my Markdown-Parse Repo, where the assert test includes what the test method should've produced per the CommonMark demo site...
 
 ![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157922706-08e587f3-9548-4988-a553-a93a63e0b020.png)
 
 
-The code below illustrates how the actual test for Snippet 2 was conducted in the `MarkdownParseTest.java` file on the repo being reviewed...
+The code below illustrates how the actual test for Snippet 2 was conducted in the `MarkdownParseTest.java` file on the repo being reviewed, where the assert test includes what the test method should've produced per the CommonMark demo site...
 
 ![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157929139-49dcfb4f-89eb-499c-8efd-9f54b89483c2.png)
 
@@ -51,12 +51,12 @@ The screenshot below provides the output of running Snippet 2 on the repo being 
 
 # Snippet 3
 
-The code below illustrates how the actual test for Snippet 3 was conducted in the `MarkdownParseTest.java` file on my Markdown-Parse Repo...
+The code below illustrates how the actual test for Snippet 3 was conducted in the `MarkdownParseTest.java` file on my Markdown-Parse Repo, where the assert test includes what the test method should've produced per the CommonMark demo site...
 
 ![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157929968-0408e6ba-d640-42f3-a5af-56fe23a50bff.png)
 
 
-The code below illustrates how the actual test for Snippet 3 was conducted in the `MarkdownParseTest.java` file on the repo being reviewed...
+The code below illustrates how the actual test for Snippet 3 was conducted in the `MarkdownParseTest.java` file on the repo being reviewed, where the assert test includes what the test method should've produced per the CommonMark demo site...
 
 ![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157930272-b977aeca-fe90-4724-a67a-8f6f63b92c55.png)
 
