@@ -10,6 +10,7 @@ The code below illustrates how the actual test for Snippet 1 was conducted in th
 ![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157922566-66e309b1-444c-4671-bf9a-fadf21d64d34.png)
 
 The code below illustrates how the actual test for Snippet 1 was conducted in the `MarkdownParseTest.java` file on the repo being reviewed...
+
 ![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157933989-a4d9855f-5f7d-433c-ace1-3086ed1ffdce.png)
 
 The screenshot below provides the output of running Snippet 1 on my Markdown-Parse Repo...
@@ -27,6 +28,7 @@ The code below illustrates how the actual test for Snippet 2 was conducted in th
 ![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157922706-08e587f3-9548-4988-a553-a93a63e0b020.png)
 
 The code below illustrates how the actual test for Snippet 2 was conducted in the `MarkdownParseTest.java` file on the repo being reviewed...
+
 ![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157929139-49dcfb4f-89eb-499c-8efd-9f54b89483c2.png)
 
 The screenshot below provides the output of running Snippet 2 on my Markdown-Parse Repo...
