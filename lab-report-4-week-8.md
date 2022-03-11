@@ -1,4 +1,4 @@
-*Brief Note: I was not able to work on almost all of this assignment as I was extremely packed this week; since we get another shot at full credit, I will work on and finish up the lab by the second deadline.*
+*Brief Note: As expected, since each group's `MarkdownParse.java` file was different, a different format of a test between my Markdown-Parse Repo and the repo being reviewed was required for each code snippet.*
 
 My Markdown-Parse Repo: https://github.com/c5k1m/markdown-parse
 
