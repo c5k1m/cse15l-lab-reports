@@ -24,10 +24,10 @@ The code below illustrates how the actual test for Snippet 2 was conducted in th
 ![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157920088-de70e128-b874-48ec-a8f0-a5dc0b411387.png)
 
 The screenshot below provides the output of running Snippet 2 on my Markdown-Parse Repo...
-![markdown-parse repo picture]()
+![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157921678-0b8b3dba-ca5a-4241-80d1-a4a814165f5c.png)
 
 The screenshot below provides the output of running Snippet 2 on the repo being reviewed...
-![markdown-parse repo picture]()
+![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157922144-b8366b27-476c-4158-b5fa-2fcd67941eb4.png)
 
 
 # Snippet 3
