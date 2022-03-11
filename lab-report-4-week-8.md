@@ -54,7 +54,7 @@ The screenshot below provides the output of running Snippet 2 on the repo being 
 
 ![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157933709-0d0f8415-b102-4f44-aa48-65053d1a15ba.png)
 
-As we can see, the test clearly failed because the correct output was supposed to be `[a.com, a.com(()), example.com]`, but the actual output was `[a.com)](b.com, a.com(()), example.com]`, where it's clear that the `)](b.com` portion was in `a.com)](b.com` was not supposed to be included in the output as shown in the JUnit stack trace presented above as a result of the failed test. 
+As we can see, the test clearly failed because the correct output was supposed to be `[a.com, a.com(()), example.com]`, but the actual output was `[a.com)](b.com, a.com(()), example.com]`, where it's clear that the `)](b.com` portion in the `a.com)](b.com` output was not supposed to be included in the output as shown in the JUnit stack trace presented above as a result of the failed test. 
 
 
 
@@ -74,9 +74,11 @@ The screenshot below provides the output of running Snippet 3 on my Markdown-Par
 
 ![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157932392-2026d2aa-6434-4541-b1ab-96b971293a7f.png)
 
+As we can see, the test clearly failed because the correct output was supposed to be `[https://ucsd-cse15l-w22.github.io/]`, but the actual output was a result that spenned multiple lines, included `https://www.twitter.com`, which isn't included in the expected output, and included some text that was not supposed to be treated as links, such as the text `And there's still some more text after that.`
+
 
 The screenshot below provides the output of running Snippet 3 on the repo being reviewed...
 
 ![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/157933110-76460f34-12d2-4277-80fd-154ba801472c.png)
 
-
+As we can see, the test clearly failed because the correct output was supposed to be `[https://ucsd-cse15l-w22.github.io/]`, but the actual output was an empty set of brackets, signifying that the method did not treat any of the input as valid links.
