@@ -7,9 +7,13 @@ It didn't take to long after going through each file to recognize that some of t
 
 # Test 1: `22.md`
 
-Accoring to the commonmark.js demo website, the correct output is supposed to be `foo`.
+Accoring to the commonmark.js demo website, the correct output is supposed to be `foo`. However, the following screenshot below illustrates the outputs from my implementation and the week 9 implementation respectively.
 
 ![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/159064346-be697b16-825f-4965-8286-2e82bf793959.png)
+
+As we can see, none of the implementations produced the correct output since my implementation produced `[/bar\* "ti\*tle"]` while the week 9 implementation produced `[]`. Since both implementation are incorrect, we will examine my implementation and give a brief insight as to the problem with the code and how the problem can be fixed.
+
+
 
 
 # Test 2: `32.md`
