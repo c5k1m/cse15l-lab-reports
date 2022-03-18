@@ -30,4 +30,8 @@ According to the commonmark.js demo website, the correct output is supposed to b
 
 As we can see, my implementation produced `[url &quot;tit&quot;]` while the week 9 implementation produced the correct output of an empty list `[]`. We will examine my implementation and give a brief insight as to the problem with the code and how the problem can be fixed such that an empty list `[]` is produced.
 
+Again, for reference, the following screenshot contains the contents of the `MarkdownParse.java` file...
+
+![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/159071100-133a93ce-6011-4450-81e2-0cd5e361c367.png)
+
 
