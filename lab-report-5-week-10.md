@@ -3,7 +3,7 @@ The method that I used to find the different results was to search through the r
 
 ![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/159062466-028fc6b6-5f9b-4d4a-9af4-dec319aa2ab2.png)
 
-It didn't take to long after going through each file to recognize that some of the files with discrepancies in terms of their output included `22.md` and `32.md`, which will be the two files used for this lab report.
+It didn't take to long after going through each file to recognize that some of the files with discrepancies in terms of their output included `22.md` and `31.md`, which will be the two files used for this lab report.
 
 # Test 1: `22.md`
 
@@ -22,6 +22,12 @@ In lines 26-30, we notice that the program simply takes the substring of any sor
 Therefore, the main focus of the change to fix the bug will primarily deal with ensuring that parentheses and brackets are not the only components being inspected when deciding what should be included in the output.
 
 
-# Test 2: `32.md`
+# Test 2: `41.md`
 
-![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/159064670-505a3e90-2f15-4744-83bf-a0d7f84d5ef1.png)
+According to the commonmark.js demo website, the correct output is supposed to be `[]` since the test does not included any valid links. However, the following screenshot below illustrates the outputs from my implementation and the week 9 implementation respectively.
+
+![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/159078495-2329140c-23d8-4d99-bb35-8215660813bd.png)
+
+As we can see, my implementation produced `[url &quot;tit&quot;]` while the week 9 implementation produced the correct output of an empty list `[]`. We will examine my implementation and give a brief insight as to the problem with the code and how the problem can be fixed such that an empty list `[]` is produced.
+
+
