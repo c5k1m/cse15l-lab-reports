@@ -7,13 +7,19 @@ It didn't take to long after going through each file to recognize that some of t
 
 # Test 1: `22.md`
 
-Accoring to the commonmark.js demo website, the correct output is supposed to be `foo`. However, the following screenshot below illustrates the outputs from my implementation and the week 9 implementation respectively.
+According to the commonmark.js demo website, the correct output is supposed to be `[bar*]`. However, the following screenshot below illustrates the outputs from my implementation and the week 9 implementation respectively.
 
 ![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/159064346-be697b16-825f-4965-8286-2e82bf793959.png)
 
-As we can see, none of the implementations produced the correct output since my implementation produced `[/bar\* "ti\*tle"]` while the week 9 implementation produced `[]`. Since both implementation are incorrect, we will examine my implementation and give a brief insight as to the problem with the code and how the problem can be fixed.
+As we can see, none of the implementations produced the correct output since my implementation produced `[/bar\* "ti\*tle"]` while the week 9 implementation produced an empty list `[]`. Since both implementation are incorrect, we will examine my implementation and give a brief insight as to the problem with the code and how the problem can be fixed.
 
+The following screenshot contains the contents of the `MarkdownParse.java` file...
 
+![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/159071100-133a93ce-6011-4450-81e2-0cd5e361c367.png)
+
+In lines 26-30, we notice that the program simply takes the substring of any sort of text found between the character after the open parenthesis and the next closed parenthesis. This attempt to find a substring will be problematic when the program simply takes everything between the two parentheses without omitting unnecessary and unwanted text. Thus, the program needs to be fixed such that it omits unnecessary characters, like the `/` before `bar` and the `/` after `bar`. Furthermore, we need to add additional code to ensure that the `"ti\*tle"` portion does not get included into the resulting link as it includes quotations.
+
+Therefore, the main focus of the change to fix the bug will primarily deal with ensuring that parentheses and brackets are not the only components being inspected when deciding what should be included in the output.
 
 
 # Test 2: `32.md`
