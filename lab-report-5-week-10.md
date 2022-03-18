@@ -34,4 +34,8 @@ Again, for reference, the following screenshot contains the contents of the `Mar
 
 ![markdown-parse repo picture](https://user-images.githubusercontent.com/81746604/159071100-133a93ce-6011-4450-81e2-0cd5e361c367.png)
 
+The necessary change is somewhat similar to the change required for my implementation for the `22.md` file. In lines 26-30, we notice that the program simply takes the substring of any sort of text found between the character after the open parenthesis and the next closed parenthesis. It simply tries to find the placement of the parentheses and brackets in order to include any sort of characters between the parentheses. While the `22.md` file test included some text that was supposed to be included in the output list, namely the `bar*` output, this file isn't supposed to output anything at all since the entire URL is invalid. Thus, we will need to add a series of if-statements to ensure that the `url &quot;tit&quot;` does not get interpreted as a link since it is merely a series of strings.
+
+Therefore, the main focus of the change to fix the bug will primarily deal with ensuring that parentheses and brackets are not the only components being inspected when deciding what should be included in the output.
+
 
